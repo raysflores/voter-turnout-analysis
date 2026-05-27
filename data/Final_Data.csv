@@ -1,0 +1,133 @@
+County,Income,TotalVote,Population,VoterProportion,PopDensity,LaborForce,Employment,Unemployment,Setting,Education,AvgWage,PopulationRange,DomIndustry
+Accomack County,"57,500",17475,33271,0.53,74.00,15114,14568,546,Urban,No,$950 to $1099,Medium,No
+Albemarle County,"102,617",67592,117338,0.58,163.00,61685,60089,1596,Urban,Yes,$1250 and higher,Large,Yes
+Alexandria City,"113,638",81594,155600,0.52,10373.00,101530,99043,2487,Urban,Yes,$1250 and higher,Large,Yes
+Alleghany County and Clifton Forge City,"55,160",8344,14355,0.58,32.00,6041,5806,235,Urban,No,949 and lower,Small,Yes
+Amelia County,"66,339",8070,13704,0.59,39.00,6550,6345,205,Urban,No,$950 to $1099,Small,No
+Amherst County,"67,298",17510,31244,0.56,66.00,15331,14868,463,Urban,No,$950 to $1099,Medium,Yes
+Appomattox County,"62,337",9726,17186,0.57,51.00,8106,7847,259,Urban,No,949 and lower,Small,No
+Arlington County,"140,160",130715,235130,0.56,9043.00,155005,151547,3458,Urban,Yes,$1250 and higher,Large,No
+Augusta County,"79,972",44609,78863,0.57,82.00,40534,39538,996,Urban,No,$1100 to $1249,Large,No
+Bath County,"61,709",2602,4031,0.65,8.00,2225,2168,57,Rural,No,$1100 to $1249,Small,Yes
+Bedford City and County,"77,644",51334,83093,0.62,109.00,38924,37775,1149,Urban,No,$950 to $1099,Large,No
+Bland County,"61,375",3572,6261,0.57,17.00,2646,2560,86,Urban,No,$1250 and higher,Small,Yes
+Botetourt County,"80,467",22072,34175,0.65,63.00,17439,16995,444,Urban,No,$1100 to $1249,Medium,No
+Bristol City,"44,706",7531,16541,0.46,1272.00,7586,7316,270,Urban,No,$950 to $1099,Small,No
+Brunswick County,"52,978",7808,15585,0.5,28.00,6603,6337,266,Urban,No,$950 to $1099,Small,No
+Buchanan County,"42,216",9466,18495,0.51,37.00,6275,6010,265,Urban,No,$1250 and higher,Small,Yes
+Buckingham County,"59,199",7978,16958,0.47,29.00,7240,6990,250,Urban,No,$950 to $1099,Small,Yes
+Buena Vista City,"54,458",2886,6560,0.44,1093.00,3172,3078,94,Urban,No,$950 to $1099,Small,No
+Campbell County,"62,608",31367,55680,0.56,111.00,27334,26516,818,Urban,No,$1100 to $1249,Large,Yes
+Caroline County,"86,267",17762,34040,0.52,65.00,16672,16164,508,Urban,No,$950 to $1099,Medium,No
+Carroll County,"52,575",16286,29481,0.55,62.00,12384,11920,464,Urban,No,949 and lower,Medium,Yes
+Charles City County,"70,339",4469,6694,0.67,37.00,3483,3365,118,Urban,No,$1100 to $1249,Small,No
+Charlotte County,"48,892",6051,11208,0.54,24.00,4897,4731,166,Urban,No,949 and lower,Small,No
+Charlottesville City,"69,829",23563,44405,0.53,4441.00,25322,24709,613,Urban,Yes,$1250 and higher,Medium,Yes
+Chesterfield County,"98,910",211995,395048,0.54,932.00,206789,200909,5880,Urban,No,$1250 and higher,Large,No
+Clarke County,"114,185",9893,15736,0.63,89.00,8256,8043,213,Urban,No,$1100 to $1249,Small,No
+Colonial Heights City,"76,250",9007,18623,0.48,2328.00,9441,9144,297,Urban,No,949 and lower,Small,No
+Covington City,"42,724",2492,5369,0.46,1074.00,2209,2118,91,Urban,No,$1100 to $1249,Small,Yes
+Craig County,"67,778",3154,4813,0.66,15.00,2107,2038,69,Rural,No,$950 to $1099,Small,No
+Culpeper County,"96,098",28849,56339,0.51,149.00,28745,27995,750,Urban,No,$1100 to $1249,Large,No
+Cumberland County,"57,057",5523,10132,0.55,34.00,5540,5391,149,Urban,No,$950 to $1099,Small,No
+Danville City,"42,778",17949,41477,0.43,965.00,18054,17126,928,Urban,No,$950 to $1099,Medium,Yes
+Dickenson County,"43,831",7108,13454,0.53,41.00,4808,4608,200,Urban,No,$1100 to $1249,Small,Yes
+Dinwiddie County,"83,898",15696,28831,0.54,57.00,14459,14016,443,Urban,No,$1250 and higher,Medium,No
+Emporia City,"49,375",2198,5323,0.41,760.00,2362,2226,136,Urban,No,949 and lower,Small,Yes
+Essex County,"56,481",6102,10534,0.58,41.00,5021,4824,197,Urban,No,949 and lower,Small,No
+Fairfax City,"132,774",13774,25928,0.53,4321.00,14371,14030,341,Urban,Yes,$1250 and higher,Small,No
+Fairfax County,"150,113",593752,1147016,0.52,2934.00,653125,636719,16406,Urban,Yes,$1250 and higher,Large,No
+Falls Church City,"154,734",9094,15077,0.6,7539.00,8386,8183,203,Urban,Yes,$1250 and higher,Small,No
+Fauquier County,"129,495",44976,76141,0.59,118.00,42758,41758,1000,Urban,No,$1250 and higher,Large,No
+Floyd County,"61,401",9693,15791,0.61,41.00,8708,8478,230,Urban,No,949 and lower,Small,No
+Fluvanna County,"91,959",16890,29152,0.58,102.00,14955,14591,364,Urban,No,$1100 to $1249,Medium,No
+Franklin City,"65,125",3926,8469,0.46,1059.00,3627,3484,143,Urban,No,$950 to $1099,Small,No
+Franklin County,"68,348",31183,56489,0.55,82.00,26630,25826,804,Urban,No,949 and lower,Large,Yes
+Frederick County,"95,603",52385,98366,0.53,238.00,51973,50624,1349,Urban,No,$1100 to $1249,Large,No
+Fredericksburg City,"85,368",13728,29488,0.47,2949.00,16408,15906,502,Urban,No,$1100 to $1249,Medium,No
+Galax City,"41,438",2746,6747,0.41,843.00,2977,2874,103,Urban,No,949 and lower,Small,Yes
+Giles County,"64,819",9313,16507,0.56,46.00,7953,7707,246,Urban,No,$950 to $1099,Small,Yes
+Gloucester County,"83,689",23288,41071,0.57,188.00,20721,20186,535,Urban,No,949 and lower,Medium,No
+Goochland County,"118,695",19826,29267,0.68,104.00,13608,13230,378,Urban,No,$1250 and higher,Medium,No
+Grayson County,"42,864",8156,15205,0.54,34.00,7125,6906,219,Urban,No,949 and lower,Small,No
+Greene County,"85,268",12186,21873,0.56,140.00,11821,11532,289,Urban,No,949 and lower,Small,No
+Greensville County,"56,759",4327,10991,0.39,37.00,3821,3652,169,Urban,No,$1100 to $1249,Small,Yes
+Halifax County with South Boston City,"49,244",18029,33056,0.55,40.00,14788,14169,619,Urban,No,$950 to $1099,Medium,No
+Hampton City,"67,758",63128,135578,0.47,2658.00,67433,64997,2436,Urban,No,$1100 to $1249,Large,Yes
+Hanover County,"109,504",73850,116724,0.63,249.00,62896,61302,1594,Urban,No,$1100 to $1249,Large,No
+Harrisonburg City,"59,752",17580,50946,0.35,2997.00,26367,25492,875,Urban,No,$950 to $1099,Medium,No
+Henrico County,"86,397",182812,335174,0.55,1432.00,187213,181737,5476,Urban,No,$1250 and higher,Large,No
+Henry County,"48,445",25517,49516,0.52,130.00,21469,20620,849,Urban,No,949 and lower,Medium,Yes
+Highland County,"62,946",1544,2425,0.64,6.00,1146,1113,33,Rural,No,949 and lower,Small,Yes
+Hopewell City,"48,681",9103,22676,0.4,2268.00,10220,9788,432,Urban,No,$1250 and higher,Small,Yes
+Isle of Wight County,"96,118",24857,41863,0.59,132.00,20977,20400,577,Urban,No,$1100 to $1249,Medium,Yes
+James City County,"107,046",51657,84996,0.61,599.00,38427,37333,1094,Urban,Yes,$950 to $1099,Large,Yes
+King and Queen County,"72,851",4208,6732,0.63,21.00,3621,3516,105,Urban,No,$1100 to $1249,Small,No
+King George County,"110,517",15521,29868,0.52,166.00,15001,14595,406,Urban,No,$1250 and higher,Medium,Yes
+King William County,"85,212",11636,20032,0.58,73.00,10597,10325,272,Urban,No,$1100 to $1249,Small,Yes
+Lancaster County,"67,169",7355,10965,0.67,82.00,4741,4537,204,Urban,No,$950 to $1099,Small,Yes
+Lee County,"42,269",10179,21541,0.47,50.00,7793,7504,289,Urban,No,949 and lower,Small,No
+Lexington City,"89,598",2929,7572,0.39,3786.00,3445,3301,144,Urban,Yes,949 and lower,Small,No
+Loudoun County,"178,707",231553,443457,0.52,859.00,254773,248477,6296,Urban,Yes,$1250 and higher,Large,No
+Louisa County,"80,343",24243,43051,0.56,87.00,19199,18624,575,Urban,No,$1100 to $1249,Medium,No
+Lunenburg County,"54,460",5909,12110,0.49,28.00,4702,4528,174,Urban,No,$950 to $1099,Small,No
+Lynchburg City,"59,808",37884,80149,0.47,1636.00,37728,36289,1439,Urban,No,$1100 to $1249,Large,Yes
+Madison County,"82,972",8509,14368,0.59,45.00,7272,7088,184,Urban,No,$950 to $1099,Small,No
+Manassas City,"117,919",16272,42742,0.38,4274.00,24303,23705,598,Urban,No,$1250 and higher,Medium,No
+Manassas Park City,"100,668",6041,15697,0.38,5232.00,10172,9926,246,Urban,No,$1250 and higher,Small,No
+Martinsville City,"42,434",5712,13895,0.41,1263.00,6194,5911,283,Urban,No,949 and lower,Small,Yes
+Mathews County,"75,487",5983,8642,0.69,100.00,3657,3547,110,Urban,No,949 and lower,Small,Yes
+Mecklenburg County,"51,691",16403,30890,0.53,49.00,14179,13709,470,Urban,No,$950 to $1099,Medium,No
+Middlesex County,"74,154",6967,10868,0.64,84.00,4950,4810,140,Urban,No,949 and lower,Small,Yes
+Montgomery County,"70,769",47618,98346,0.48,254.00,51308,49752,1556,Urban,No,$1100 to $1249,Large,Yes
+Nelson County,"68,525",9507,14621,0.65,31.00,7190,6997,193,Urban,No,$950 to $1099,Small,Yes
+New Kent County,"120,125",16862,28498,0.59,136.00,14201,13847,354,Urban,No,$950 to $1099,Medium,Yes
+Newport News City,"66,718",77252,181394,0.43,2629.00,89837,86761,3076,Urban,No,$1250 and higher,Large,Yes
+Norfolk City,"64,017",86839,227674,0.38,4296.00,108301,104619,3682,Urban,No,$1250 and higher,Large,Yes
+Northampton County,"55,933",6930,12107,0.57,57.00,5449,5252,197,Urban,No,949 and lower,Small,Yes
+Northumberland County,"69,500",8271,12617,0.66,66.00,4597,4382,215,Urban,No,$1100 to $1249,Small,Yes
+Norton City,"38,497",1657,3298,0.5,471.00,1511,1458,53,Rural,No,949 and lower,Small,No
+Nottoway County,"62,161",6891,15588,0.44,50.00,5873,5666,207,Urban,No,$950 to $1099,Small,Yes
+Orange County,"94,175",22514,39612,0.57,116.00,18568,18037,531,Urban,No,$950 to $1099,Medium,No
+Page County,"59,396",13340,23669,0.56,76.00,12033,11606,427,Urban,No,949 and lower,Small,No
+Patrick County,"50,938",9776,17325,0.56,36.00,7735,7487,248,Urban,No,949 and lower,Small,Yes
+Petersburg City,"50,741",13324,33003,0.4,1435.00,15242,14505,737,Urban,No,$950 to $1099,Medium,No
+Pittsylvania County,"54,115",34278,59065,0.58,61.00,28357,27400,957,Urban,No,$950 to $1099,Large,Yes
+Poquoson City,"120,919",8096,12657,0.64,844.00,6820,6655,165,Urban,No,$950 to $1099,Small,No
+Portsmouth City,"58,972",41786,96471,0.43,2923.00,44426,42747,1679,Urban,No,$1250 and higher,Large,Yes
+Powhatan County,"110,667",21035,33145,0.63,127.00,17471,17064,407,Urban,No,$1100 to $1249,Medium,No
+Prince Edward County,"55,082",9527,22349,0.43,64.00,8741,8343,398,Urban,No,$950 to $1099,Small,No
+Prince George County,"88,225",17724,42571,0.42,161.00,17169,16682,487,Urban,No,$1250 and higher,Medium,Yes
+Prince William County,"128,873",229393,494896,0.46,1477.00,270786,263598,7188,Urban,No,$1250 and higher,Large,No
+Pulaski County,"60,767",17808,33599,0.53,105.00,16260,15751,509,Urban,No,$950 to $1099,Medium,Yes
+Radford City,"52,791",6657,17475,0.38,1748.00,9006,8676,330,Urban,No,$950 to $1099,Small,Yes
+Rappahannock County,"98,125",5081,7336,0.69,28.00,3753,3656,97,Urban,No,$950 to $1099,Small,Yes
+Richmond City,"62,671",110040,231007,0.48,3850.00,131163,126903,4260,Urban,No,949 and lower,Large,Yes
+Richmond County,"64,184",4183,9300,0.45,49.00,3351,3227,124,Urban,No,$1250 and higher,Small,Yes
+Roanoke City,"52,671",42793,96199,0.44,2237.00,49009,47421,1588,Urban,No,$950 to $1099,Large,No
+Roanoke County,"82,931",57532,97566,0.59,389.00,50117,48768,1349,Urban,No,$1250 and higher,Large,No
+Rockbridge County,"63,975",12893,21938,0.59,37.00,11179,10886,293,Urban,No,949 and lower,Small,No
+Rockingham County,"78,468",49194,88876,0.55,105.00,46036,44894,1142,Urban,No,$1100 to $1249,Large,No
+Russell County,"49,020",13688,25557,0.54,54.00,9447,9076,371,Urban,No,$950 to $1099,Small,No
+Salem City,"66,716",13275,25400,0.52,1693.00,13412,13027,385,Urban,No,$1250 and higher,Small,No
+Scott County,"45,136",11132,21339,0.52,40.00,8185,7904,281,Urban,No,949 and lower,Small,Yes
+Shenandoah County,"64,437",24538,45812,0.54,90.00,22120,21485,635,Urban,No,$950 to $1099,Medium,Yes
+Smyth County,"46,859",14587,28832,0.51,64.00,12430,11965,465,Urban,No,$950 to $1099,Medium,Yes
+Southampton County,"68,465",9902,18127,0.55,30.00,8149,7918,231,Urban,No,$950 to $1099,Small,No
+Spotsylvania County,"109,576",79722,155108,0.51,386.00,79801,77546,2255,Urban,No,$950 to $1099,Large,No
+Stafford County,"133,792",83924,169946,0.49,632.00,86113,83754,2359,Urban,No,$1250 and higher,Large,No
+Staunton City,"62,586",13705,25865,0.53,1293.00,13035,12673,362,Urban,No,$950 to $1099,Small,No
+Suffolk City,"90,089",53755,105125,0.51,263.00,49927,48438,1489,Urban,No,$1250 and higher,Large,No
+Surry County,"71,458",4465,6725,0.66,24.00,3387,3288,99,Urban,No,$1250 and higher,Small,No
+Sussex County,"62,821",4925,10991,0.45,22.00,4671,4505,166,Urban,No,$950 to $1099,Small,Yes
+Tazewell County,"45,788",20011,38234,0.52,74.00,14863,14242,621,Urban,No,949 and lower,Medium,No
+Virginia Beach City,"90,685",230723,450809,0.51,1840.00,235565,229092,6473,Urban,No,$1100 to $1249,Large,No
+Warren County,"84,331",22796,42721,0.53,199.00,21891,21291,600,Urban,No,$950 to $1099,Medium,No
+Washington County,"62,774",29735,54440,0.55,97.00,24717,23954,763,Urban,No,$950 to $1099,Medium,No
+Waynesboro City,"56,364",11372,23948,0.47,1597.00,11918,11593,325,Urban,No,$950 to $1099,Small,No
+Westmoreland County,"59,766",10664,19509,0.55,85.00,7746,7422,324,Urban,No,949 and lower,Small,No
+Williamsburg City,"70,206",7963,16171,0.49,1797.00,7124,6823,301,Urban,No,$950 to $1099,Small,Yes
+Winchester City,"64,648",11989,27129,0.44,3014.00,15240,14797,443,Urban,No,$1250 and higher,Small,No
+Wise County,"50,740",16872,34868,0.48,87.00,13242,12736,506,Urban,No,949 and lower,Medium,No
+Wythe County,"55,359",15541,28082,0.55,61.00,14438,14007,431,Urban,No,949 and lower,Medium,Yes
+York County,"108,326",40036,70528,0.57,672.00,33938,33022,916,Urban,Yes,$950 to $1099,Large,No

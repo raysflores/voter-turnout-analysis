@@ -1,0 +1,144 @@
+---
+title: "Voter Proportion Outcome Project" 
+author: "Ray, Natalie, Ashley"
+fontsize: 12pt
+geometry: margin=1in
+urlcolor: black
+output: pdf_document
+header-includes:
+- \usepackage{setspace}
+- \onehalfspacing
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, highlight=FALSE, comment=NA, warnings=FALSE,message=FALSE)
+```
+
+```{r, echo=FALSE, warning=FALSE,results=FALSE}
+library(readr)
+library(corrplot)
+Final_Data_Modified <- read.csv("Proposed Data.csv", header = TRUE)
+Final_Data_Modified2 <- read.csv("Final_Data_Modified.csv")
+Final_Data_NoCounty <- Final_Data_Modified2[, -1]
+View(Final_Data_Modified)
+Final_Data_Modified$VoterProportion<-parse_number(Final_Data_Modified$VoterProportion)
+```
+
+## Introduction
+
+-   In 2024, Virginia held a total registered voter count of 6,434,637, in the general election, the turnout percent was about 70.48% with only 4,535,314 actually being cast, to explore factors that may be influencing this absence and multilinear regression analysis was conducted.
+
+-   To conduct this analysis, research on the specific county data was compiled with the intent to best describe each counties quantitative
+
+-   Quantitative variables such as median household income, population density along with qualitative variables that describe the counties might help us uncover if factors such as education and average weekly wage impact voter turnout in the general election.
+
+## Data Summary
+
+```         
+The data set that is the basis for this project was combined from NIH, USDA, BEA, BLS, ODGA, Virginia Elections data as well as U.S. Census Bureau data.The **median household income, population** per county, and **population density** were collected from the National Institute of Minority and Health , including a median income for all ages, sex, and races between between 2019-2023, and World Population Review. Median income per county is followed by the **total voter turnout** for that county, which is taken as a sum of early, election day, absentee ballots, and other voting formats. This column's data is provided from the Virginia Department of Elections, a long-standing federal organization that holds recorded election results for descriptive purposes, which collected these counts for the 2024 general election. The **voter proportion** column was taken from a proportion of population and total voter turnout. **Labor force**, **employment** and **unemployment** data from the Virginia ODGA is also included to provide a better quantitative understanding of each counties’ population makeup and provide more context into median income.
+
+Our qualitative variables' focus was to categorize as well as describe each county by its average education level, average weekly wage range, status as urban or rural, generalized population size and prominent industry type. The **education** variable was categorized by whether or not 50% of the county’s citizens earned bachelors or higher, an average taken from the Department of Education for recording purposes for the year 2023. For **average weekly wage**, there are four ranges of consideration: 949 and lower, \$950 to \$1099, \$1100 to \$1249, and \$1250 and higher. **Urban or rural** classification is based on the U.S. Census Bureau's description: To qualify as an urban area, the territory must encompass at least 2,000 housing units or have a population of at least 5,000. **Population range** categorized by small, medium and large is calculated using quartiles. Large included 54750 and higher, medium was from 27605.5, small was anything below. The last qualitative variable that was included, **dominant industry,** is sourced from the United States Department of Agriculture’s department of Economic Research, where the counties typology code is formatted using descriptors such as high government, farming, manufacturing, and unspecified to describe each counties most influential employers. This data sourced from 2025, is a part of a recording process that takes place for each county within the United States about every ten years.
+```
+
+**Statement on trustworthiness and manipulations we did:** Our data was primarily sourced from government websites, so each observation cannot be publicly accessed or tampered with. Outliers that arise will most likely be due to an input error. To make qualitative variables we utilized a majority or non majority percentage for educated citizens per county, dominant industry, and population range. To do this we set a threshold and then used conditional formatting to write the qualitative data in.
+
+**Description of our merging process:** To form the finalized data set, we added each data column into our data with its coinciding county. To make sure there was not an input error on our end, we alphabetized the counties and matched each new column to its correct county.
+
+### Exploratory Data Analysis
+
+```{r, echo=FALSE}
+
+par(mfrow = c(3, 3), mar = c(4, 4, 2, 1))
+hist(Final_Data_Modified$VoterProportion, 
+     xlab = "Voter Proportion", breaks = 10,
+     main = "Voter Turnout Distribution")
+
+plot(Final_Data_Modified$TotalVote, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 60000), xlab = "Total Votes", ylab = "Voter Proportion",
+     main = "Total Votes vs Turnout")
+
+plot(Final_Data_Modified$Population, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 200000), xlab = "Population", ylab = "Voter Proportion",
+     main = "Population vs Turnout")
+
+plot(Final_Data_Modified$PopDensity, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 4000), xlab = "Density", ylab = "Voter Proportion",
+     main = "Density vs Turnout")
+
+plot(Final_Data_Modified$LaborForce, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 250000), xlab = "Labor Force", ylab = "Voter Proportion",
+     main = "Labor Force vs Turnout")
+
+plot(Final_Data_Modified$Employment, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 150000), xlab = "Employment", ylab = "Voter Proportion",
+     main = "Employment vs Turnout")
+
+plot(Final_Data_Modified$Unemployment, Final_Data_Modified$VoterProportion,
+     xlim = c(0, 4000), xlab = "Unemployment", ylab = "Voter Proportion",
+     main = "Unemployment vs Turnout")
+
+```
+
+```{r, echo=FALSE, warning=FALSE,results=FALSE}
+library(dplyr)
+Final_Data_NoCounty<-Final_Data_NoCounty[,-10]
+voter_cor <- round(cor(Final_Data_NoCounty, use = "complete.obs")["VoterProportion", ], 3)
+print(voter_cor)
+corrplot(cor(Final_Data_NoCounty))
+
+flagcormod <- round(cor(flag[-c(1, 4,5, 15)]),4)
+
+Final_Data_NoCounty <- Final_Data_Modified2 %>%
+  select(-County) %>%  
+voter_cor <- round(cor(Final_Data_NoCounty, use = "complete.obs")["VoterProportion", ], 3)
+
+print(voter_cor)
+corrplot(cor(Final_Data_NoCounty))
+
+```
+
+### EDA Summary
+
+Our research variables Income, Laborforce, and Population Density did not have strong linear relationships with correlations of 0.249, -0.081, and -0.342 respectively. None of them seemed to have a super strong linear relationship with population density with a slightly moderate negative linear relationship with voter proportion. Additionally, multicollinearity was not a huge concern with several variables with low VIFs except. Unemployment, Laborforce, and Population having VIFs higher than 14. After performing stepwise with entry and stay significance of 0.20, the variables Income, Population Density, and Laborforce were determined to be an important set of predictors. Therefore, we will begin model building with those variables.
+
+\newpage
+
+## Appendix A: Data Dictionary
+
+| Variable Name | Abbreviated Name | Description |
+|:-------------:|:----------------:|:-----------:|
+|               |                  |             |
+
+\newpage
+
+## Appendix B: Data Rows
+
+```{r, echo=FALSE}
+head(Final_Data_Modified2)
+```
+
+\newpage
+
+## Appendix C: Final Model Output and Plots
+
+```{r, echo=FALSE, warning=FALSE,results=FALSE}
+## This code chunk can be used to execute any functions or summaries that will not be included in your output
+
+```
+
+```{r, echo=FALSE}
+## Use this section to output the summary of your final model
+## Include the relevant plots from assumptions and your additional techniques
+## This should NOT be a dump of all of your plots and outputs.
+## Refer to the Rmarkdown guide for sizing information on your plots
+```
+
+\newpage
+
+## Appendix D: References
+
+### Background
+
+### Data Sources
+
+### Additional Help
